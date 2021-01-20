@@ -66,7 +66,7 @@ class Piece:
     # of available piece moves, check which are legal 
     def check_legal(self):
         #self.moveset is a list of array values 
-        # test bejesus out of this
+        # test this
 
         coords_to_remove = []
         # check for out of bounds (set max and min coord values)
@@ -92,7 +92,7 @@ class Piece:
 
     # check for obstructing piece
     # by taking min value in all directions?
-    # this will be ballache with knights
+    # this will be different with knights
 
     # maybe redundant as this can be handled by squares class
 
@@ -190,7 +190,7 @@ for i in range(0,8):
         chessboard.add_square(str(coordinate_grid[:,i,j]),coordinate_grid[:,i,j])
 
 
-# initialise piece and square separately, see if they talk to each other 
+# initialise piece and square separately, see if they recognise each other 
 
 
 
